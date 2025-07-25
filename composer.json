@@ -1,0 +1,24 @@
+{
+    "name": "Zaff/challenge2",
+    "description": "Miniframe PHP MVC",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Challenge2\\": "src/",
+            "App\\Entity\\": "src/entities/",
+            "App\\Config\\Core\\": "config/core/",
+            "App\\Repository\\": "src/repository/",
+            "App\\Service\\": "src/service/",
+            "App\\Controller\\": "controller/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Moustapha Seck"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "type": "project",
+    "minimum-stability": "stable"
+}
