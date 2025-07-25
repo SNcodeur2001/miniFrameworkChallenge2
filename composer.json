@@ -1,5 +1,5 @@
 {
-    "name": "zaff/challenge2",
+    "name": "zaff/challenge",
     "description": "Miniframe PHP MVC",
     "autoload": {
         "psr-4": {
